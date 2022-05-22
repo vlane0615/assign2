@@ -5,8 +5,14 @@ body {
 }
 
 h1 {
-    background-color: #efefef;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
     padding: 10px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
 }
 p {
     width: 450px;
