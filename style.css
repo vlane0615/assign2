@@ -1,3 +1,6 @@
+body {
+    background-color: gray;
+}
 p {
     background-color: #D9D2E9;
     display: inline-block;
