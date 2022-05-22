@@ -1,7 +1,8 @@
 body{
-    color: red;
+    font-family: arial;
+    background-color: rgb(185, 179, 175);
 }
 
 h2 {
-    background-color: green;
+    background-color: brown;
 }
