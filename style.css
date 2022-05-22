@@ -1,11 +1,12 @@
-body{
-    font-family: arial;
-    background-color: #fff0f5;
+p {
+    background-color: red;
+    display: inline-block;
+    padding: 50px;
+    border: 10px solid limegreen;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
-h2 {
-    background-color: #fffacd;
-}
-.box-one {
-    background-color: red;
+h3 {
+    margin-top: 100px;
 }
