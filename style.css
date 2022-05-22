@@ -7,6 +7,10 @@ p {
     text-align: center;
 }
 
+p.one {
+    box-shadow: 5px 5px 5px 5px #777777
+}
+
 h3 {
     margin-top: 100px;
 }
