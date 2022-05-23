@@ -1,8 +1,25 @@
+.container {
+    display: flex; 
+}
+.Section {
+
+}
+img {
+    opacity: 0.1;
+}
+img:hover {
+    opacity: 1;
+}
+
+nav {
+   padding-bottom: 500px;
+}
+
 body {
-    margin-top: ;
+    margin-top: 0;
     width: 750px;
     font-family: Arial, Verdana, sans-serif;
-    color: #665544
+    background-color: #f5deb3;
 }
 
 h1 {
@@ -18,6 +35,8 @@ h1 {
 p {
     margin-top: 50px;
     width: 450px;
+    border: 1px solid black;
+    box-shadow: 5px 5px gray;
 }
 blockquote {
     float: right;
