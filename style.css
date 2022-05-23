@@ -1,4 +1,5 @@
 body {
+    position: relative;
     width: 750px;
     font-family: Arial, Verdana, sans-serif;
     color: #665544
