@@ -1,0 +1,160 @@
+img {
+    width: 100px;
+    height: auto;
+}
+
+img:hover {
+    opacity: .75;
+}
+.header {
+    box-sizing: border-box;
+    border: 4px solid powderblue
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+#content {
+    overflow: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#feature,
+#footer {
+    margin: 1%;
+}
+#body_content {
+    margin: 1%;
+    margin-bottom: lem;
+    background-color: #fbeec1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid powderblue
+}
+#body_content:hover {
+    opacity: .75;
+}
+
+#footer {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background-color: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h1 {
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+h3 {
+    color: slategray; 
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.column3 {
+    margin-right: 0%;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#footer {
+    background-color: #fbeec1;
+    padding: 0.5em 0;
+}
+
+#feature,
+.article {
+    margin-bottom: lem;
+    background-color: #fbeec1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid powderblue
+}
+#feature:hover {
+    opacity: 0.75;
+}
+
+.article.column2 {
+    display: none;
+}
+
+#bottom-image {
+    display: none;
+}
+
+#top-image {
+    display: block;
+}
+
+.list {
+    background-color: lavender;
+}
+
+.footer-nav {
+    list-style: none;
+    float:right;
+    font-size: 20pt;
+}
+
+.footer-nav li {
+    float: left;
+}
+
+@media only screen and (min-width: 400px) {
+    #focus-section {
+        display: flex;
+    }
+
+    .article.column2 {
+        display: block;
+    }
+
+    .column1,
+    .column2,
+    .column3 {
+        width: 50%;
+        float: left;
+        margin: 1%;
+    }
+
+    #top-image {
+        display: none;
+    }
+
+    #bottom-image {
+        display: block;
+    }
+}

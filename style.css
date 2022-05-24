@@ -4,6 +4,13 @@
 .Section {
 
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: beige;
+    }
+}
+
 img {
     opacity: 0.1;
 }
@@ -12,11 +19,11 @@ img:hover {
 }
 
 nav {
-   padding-bottom: 500px;
+   padding-top: 500px;
 }
 
 body {
-    margin-top: 0;
+    margin-top: 750;
     width: 750px;
     font-family: Arial, Verdana, sans-serif;
     background-color: #f5deb3;
